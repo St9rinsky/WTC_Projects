@@ -12,4 +12,13 @@ So far everthing from week 0 has been easy to do with my acquired knwledge, howe
 * **except error: if i get an error do this**
 * **else:only if the tried statement works do this**
 
+if you put this statement in a true while loop you can repeat forever till we get the proper input, and breaking away from the loop.
+it has come to my attention, wonder if its good practise however you can make a proper code an error like if you want only x>y but dont want x<y from user you can use an if statement together with the try statement
+
+* **try: if x >= y : do something**
+* ____**else: deliberate known error**
+*  **except error: x smaller than y**
+
+this ensures any value where x < y raises an error
+  
 
