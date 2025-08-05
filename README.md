@@ -20,5 +20,9 @@ it has come to my attention, wonder if its good practise however you can make a 
 *  **except error: x smaller than y**
 
 this ensures any value where x < y raises an error
+
+# week 4
+as the time goes and learning new comcepts and more complicated problem sets, using the breakdown by essentials first and edit rest of  later has decreased in efficiency, and so far i've been trying to break everything into separate function that i can call to main. this made my code more easier to edit and improve efficiecy of the break by parts and edit.
   
+
 
