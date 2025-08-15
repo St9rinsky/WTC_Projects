@@ -8,8 +8,8 @@ for character in word:
     if character.isupper():
         #when we find an uppercase character
         #append every character before the position of the last uppper character(excl.) to list
-        position_of_upper_character = word.index(character)
-        word_list.append(word[start:position_of_upper_character]) 
+        index_of_upper_character = word.index(character)
+        word_list.append(word[start:index_of_upper_character]) 
 
         #change start to continue from the last unrecorded character 
         start = word.index(character)       
